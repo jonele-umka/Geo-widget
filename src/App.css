@@ -1,0 +1,54 @@
+.app{
+    display: flex;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 25%;
+}
+
+.sidebar_form{
+    padding: 20px;
+}
+.sidebar_form > input {
+    padding: 15px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+}
+.sidebar_form > button {
+    padding: 15px 0;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.sidebar_result {
+    height: calc(100vh - 144px);
+    overflow-y: auto;
+    padding: 20px;
+}
+.sidebar_item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.sidebar_item:last-child{
+    margin-bottom: 0;
+}
+.sidebar_item > h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.sidebar_item  p{
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.map {
+    width: 75%;
+    height: 100vh;
+}
